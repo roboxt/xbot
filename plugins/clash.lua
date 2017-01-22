@@ -6,7 +6,7 @@ local function run(msg, matches)
      clantag = string.gsub(matches[2], '#', '')
   end
   clantag = string.upper(clantag)
-  local curl = 'curl -X GET --header "Accept: application/json" --header "authorization: Bearer '..apikey..'" "https://api.clashofclans.com/v1/clans/%23'..clantag..'"'
+  local curl = 'curl -X GET --header "Accept: application/json" --header "authorization: Bearer '..apikey..'" "https://api.clashofclans.com/v1/clans?name=iran%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86'..clantag..'"'
   cmd = io.popen(curl)
   
   local result = cmd:read('*all')
