@@ -1,4 +1,4 @@
-local apikey = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjAwZTA1OWYxLWY2NjAtNGJmNS1iNzExLWU4ZmRkYTVhMjJiOCIsImlhdCI6MTQ2MTI0NTg2MSwic3ViIjoiZGV2ZWxvcGVyL2RkYzdiYTZkLTI4OGEtOGRmMC0yMmQ2LWNjYmY1YzAyZTZhNiIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjgwLjgyLjc5LjI0MCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.kxtk48Gac83KmnJR9gmMQ0dzvH1txBLmGwkhAm80-WFHmebaOZFyaTOGq27otU6MAR0lRL2BewdSn6JGbES5CA' 
+local apikey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ' 
 local function run(msg, matches)
  if matches[1]:lower() == 'clan' or matches[1]:lower() == 'clash' or matches[1]:lower() == 'clantag' or matches[1]:lower() == 'tag' then
   local clantag = matches[2]
